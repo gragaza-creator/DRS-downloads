@@ -2,14 +2,14 @@
 
 ## Fresh-deployment release candidate
 
-- [Windows 0.3.4 package](https://github.com/gragaza-creator/DRS-downloads/releases/download/windows-v0.3.4/DRS-Windows-v0.3.4.zip) — extract the entire ZIP and open DRS.Desktop.exe. Restores Sign in after purge through app-registration retention and recovery, with explicit import, account selection, retry and folder-resumption states. Includes the guided installation checklist and unchanged standard Android 0.3.0 template.
+- [Windows 0.3.5 package](https://github.com/gragaza-creator/DRS-downloads/releases/download/windows-v0.3.5/DRS-Windows-v0.3.5.zip) — extract the entire ZIP and open DRS.Desktop.exe. Adds immediate Cancel/Escape while waiting for browser sign-in, fresh account-selection retries and preserved account/folder on cancellation. Includes the purge and app-registration recovery fixes. Includes the guided installation checklist and unchanged standard Android 0.3.0 template.
 - [Standard Android 0.3.0](https://github.com/gragaza-creator/DRS-downloads/releases/download/android-v0.3.0/DRS-Android-v0.3.0.apk) — code 12, office scanner with shared-section phone access and compressed tracking batches.
 - [Android update QR](https://github.com/gragaza-creator/DRS-downloads/releases/download/android-v0.3.0/DRS-Android-QR.png).
 - [Separate DRS Super 1.1.0](https://github.com/gragaza-creator/DRS-downloads/releases/download/super-v1.1.0/DRS-Super-v1.1.0.apk) — code 8, section switching.
 - [Separate Super setup package](https://github.com/gragaza-creator/DRS-downloads/releases/download/super-v1.1.0/DRS-Super-Setup-v1.1.0.zip).
-- [Windows checksum](https://github.com/gragaza-creator/DRS-downloads/releases/download/windows-v0.3.4/SHA256SUMS.txt).
+- [Windows checksum](https://github.com/gragaza-creator/DRS-downloads/releases/download/windows-v0.3.5/SHA256SUMS.txt).
 
-176 automated tests and native Windows checks passed. The candidate still requires actual phone and Google-account acceptance. No test phone was available. Read the included INSTALL-CHECKLIST.txt, PACKAGER-CHECKLIST.txt, RELEASE-NOTES.md and UI-VALIDATION.md.
+182 automated tests and native Windows checks passed. The candidate still requires actual phone and Google-account acceptance. No test phone was available. Read the included INSTALL-CHECKLIST.txt, PACKAGER-CHECKLIST.txt, RELEASE-NOTES.md and UI-VALIDATION.md.
 
 The first Windows Create access opens the installation checklist: Records access, Google sign-in, Drive folder, Sync check, Phone setup. The package administrator prepares Google app settings once; normal staff use the guided flow. Public packages contain no Google account configuration, workspace databases or enrollment credentials.
 
